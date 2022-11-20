@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mipaquete"
+version = "0.1.0"
+description = ""
+authors = ["Beatriz <breyesgd@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.15.5"
+mypy = "^0.990"
+pytest = "^7.2.0"
+black = "^22.10.0"
+pre-commit = "^2.20.0"
+numpy = "^1.23.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
