@@ -1,0 +1,10 @@
+name: Building
+on: [push]
+jobs:
+  building:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo ${{ github.workspace }}
+          echo $GITHUB_WORKSPACE
