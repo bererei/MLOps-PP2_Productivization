@@ -1,1 +1,0 @@
-Esto es una prueba :building_construction:
